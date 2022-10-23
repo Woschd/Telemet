@@ -99,6 +99,8 @@ Eingestellt wird das so:
 |MAX_V=4.0|	Wie MIN_V |
 |WARN_V=3.54|	Wird diese Spannung erreicht, list das Widget die Spannung alle 10 Sekunden vor.|
 
+ACHTUNG für neue Modelle: Script starten und Sensorsuche erneut ausführen, es wird ein Sensor Vcel erzeugt um die Akkuspannung anzuzeigen.
+
 ----
 
 #### Anzahl Spalten und Zeilen:
@@ -158,16 +160,17 @@ Touch und Tastenevents können an den Empfänger über den Telemetriekanal des S
  
 Im rechten Knüppel meiner Fernsteuerung ist ein Zweistufentaster, ähnlich wie im Fotoapparat eingebaut. Den nutze ich zur Ansage von Telemetriewerten.
 
-!!! Beschreiben wie angeschlossen und Prozentwert für nicht gedrückt und 1. bzw. 2. Stufe
+Angeschlossen ist der Schalter an dem freien Steckplatz auf der Platine meiner TX16S mit der Bezeichnung EX2. In den Sendereinstellungen muss EX2 noch als Poti (mit oder ohne Rast) aktiviert werden. Nach Kalibirierung ist der Wert von EX2 unbetätigt bei 0%, auf Stufe 1 gedrückt bei +100% und auf Stufe 2 gedrückt bei -100%.
+
 
 Folgende Ansagen können mit dem Taster ausgelöst werden:
 
 |Druck|Ansage|
 |----|----|
-|kurz 1. Stufe:|?|
-|kurz 2. Stufe:|?|
-|lang 1. Stufe:|?|
-|lang 2. Stufe:|?|
+|kurz, 1. Stufe:|Vbatt|
+|kurz, 2. Stufe:|Timer1|
+|lang, 1. Stufe:|konfigurierbar|
+|lang, 2. Stufe:|Timer2|
 
 	
 -----------------------------------------------------------------------------------------------------------------------------
