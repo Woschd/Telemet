@@ -99,7 +99,9 @@ Eingestellt wird das so:
 |MAX_V=4.0|	Wie MIN_V |
 |WARN_V=3.54|	Wird diese Spannung erreicht, list das Widget die Spannung alle 10 Sekunden vor.|
 
-ACHTUNG für neue Modelle: Script starten und Sensorsuche erneut ausführen, es wird ein Sensor Vcel erzeugt um die Akkuspannung anzuzeigen.
+Die Spannung aus v_field wird mit einem Script gemittelt um kurzzeitige Spannungseinbrüche beim Gasgeben auszugleichen. Der Wert wird, wie oben beschrieben duch die Anzahl der Zellen (cells= ) geteilt und über die Widgets battery und battery1 angezeigt. Der Wert wird darüberhinaus als neuer Sensor "Vcel" zur Verfügung gestellt.
+
+Für neue Modelle: Widget starten und Sensorsuche erneut ausführen, es wird der Sensor "Vcel" gefunden.
 
 ----
 
