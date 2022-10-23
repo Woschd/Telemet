@@ -169,7 +169,7 @@ Folgende Ansagen können mit dem Taster ausgelöst werden:
 
 |Druck|Ansage|
 |----|----|
-|kurz, 1. Stufe:|Vbatt|
+|kurz, 1. Stufe:|Vcel|
 |kurz, 2. Stufe:|Timer1|
 |lang, 1. Stufe:|konfigurierbar|
 |lang, 2. Stufe:|Timer2|
