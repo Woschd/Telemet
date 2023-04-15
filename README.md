@@ -193,6 +193,7 @@ Das Wechseln zwischen Seiten funktioniert nur im Fullscreen. Das bedeutet, dass 
 |RSSI|rssi2|Feldstärke mit Grafik|2|2|	
 |Battery|battery|Akkuspannung variable Quelle|1|1|
 |Battery|battery1|Akkuspannung variable Quelle|2|2|
+|Battery|battery2|Akkuspannung variable Quelle|2|3|
 |RxBat|rxbat|Empfängerspannung|5|4|
 |Timer1|timer1|Flugzeit|5|4|
 |Timer2|timer2|Motorlaufzeit|5|4|
